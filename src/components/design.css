@@ -1,0 +1,62 @@
+/* App.css */
+  .header{
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .container{
+    max-width: 1140px;
+    margin: auto;
+  }
+/* Background color for the entire app */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Movie list container */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Movie card styling */
+.movie-card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* Movie image */
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Movie information */
+.movie-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Movie name */
+.movie-info h3 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Movie category, description, and price */
+.movie-info p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
